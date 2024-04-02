@@ -46,6 +46,41 @@ body {
 
 /* ACA VAS A TRABAJAR TODO EL ESTILO DE TU MÓDULO. */
 
+#logo {
+  width: 100px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+#title {
+  margin-top: 0;
+  border: 1px solid red;
+  text-align: center;
+
+}
+
+.title-section {
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+.containerRegistrarEquipos {
+  text-align: center;
+  margin: 200px;
+  width: 90%;
+}
+
+.containerRegistrarEquipos form {
+  display: grid;
+  grid-template-columns: repeat(2, 40%);
+  grid-template-rows: repeat(4, 40%);
+  gap: 10px;
+}
+
+
 /* ALEJANDRO CERON REGISTRAR EQUIPO FIN  */
 
 /* ---- */
