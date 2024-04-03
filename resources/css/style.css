@@ -47,16 +47,18 @@ body {
 /* ACA VAS A TRABAJAR TODO EL ESTILO DE TU MÓDULO. */
 
 #logo {
-  width: 100px;
+  width: 70px;
   margin: 0;
-  border: 1px solid black;
 }
 
 #title {
   margin-top: 0;
-  border: 1px solid red;
   text-align: center;
-
+  color: #addfcd;
+  background-color: #004034;
+  opacity: 60%;
+  font-size: 56px;
+  padding: 5px;
 }
 
 .title-section {
@@ -68,17 +70,94 @@ body {
 }
 
 .containerRegistrarEquipos {
-  text-align: center;
-  margin: 200px;
-  width: 90%;
+  width: 500px;
+  height: 600px;
+  margin: 20px auto;
 }
 
-.containerRegistrarEquipos form {
+.containerRegistrarEquipos .formulario {
   display: grid;
-  grid-template-columns: repeat(2, 40%);
-  grid-template-rows: repeat(4, 40%);
-  gap: 10px;
+  text-align: center;
+  grid-template-columns: repeat(1, 250px);
+  grid-template-rows: repeat(4, 150px);
+  align-items: center;
+  justify-items: center;
 }
+
+.placa {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  /* background-color: yellow; */
+}
+
+#placa,
+#numeroSerie,
+#nombreEquipo,
+#modelo,
+#marca-select,
+#area-select,
+#estado-select,
+#instructorACargo {
+  width: 230px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 30px;
+}
+
+.numeroSerie {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* background-color: black; */
+}
+
+.nombreEquipo {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  /* background-color: brown; */
+}
+
+.modelo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* background-color: blue; */
+}
+
+.marca-select {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  /* background-color: aqua; */
+}
+
+.area-select {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* background-color: bisque; */
+}
+
+.estado-select {
+  grid-column-start: 0;
+  grid-column-end: 1;
+  /* background-color: blueviolet; */
+}
+
+
+.instructorCargo {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* background-color: chocolate; */
+}
+
+#save,
+#cancel {
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  border: none;
+}
+
 
 
 /* ALEJANDRO CERON REGISTRAR EQUIPO FIN  */

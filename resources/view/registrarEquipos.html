@@ -15,35 +15,63 @@
     <h1 id="title">Registrar Equipo</h1>
   </div>
   <div class="containerRegistrarEquipos">
-    <form action="#" method="POST" class="form">
-      <input type="text" placeholder="Placa">
-      <input type="number" name="" id="" placeholder="Número de serie">
-      <input type="text" placeholder="Nombre del equipo">
-      <input type="text" name="" id="" placeholder="Modelo">
-      <select name="Marca" id="marca-select">
-        <option value="">--Área--</option>
-        <option value="1">Marca #1</option>
-        <option value="2">Marca #2</option>
-        <option value="3">Marca #3</option>
-      </select>
-      <select name="Area" id="area-select">
-        <option value="">--Marca--</option>
-        <option value="1">Area #1</option>
-        <option value="2">Area #2</option>
-        <option value="3">Area #3</option>
-      </select>
-      <select name="Estado" id="estado-select">
-        <option value="">--Estado--</option>
-        <option value="1">Disponible</option>
-        <option value="2">Mantenimiento</option>
-        <option value="3">Prestado</option>
-      </select>
-      <select name="Area" id="area-select">
-        <option value="">--Marca--</option>
-        <option value="1">Area #1</option>
-        <option value="2">Area #2</option>
-        <option value="3">Area #3</option>
-      </select>
+    <form action="#" method="POST" class="formulario">
+      <div class="placa">
+        <input type="text" placeholder="Placa" id="placa">
+      </div>
+      <div class="numeroSerie">
+        <input type="number" name="" placeholder="Número de serie" id="numeroSerie">
+      </div>
+      <div class="nombreEquipo">
+        <input type="text" placeholder="Nombre del equipo" id="nombreEquipo">
+      </div>
+      <div class="modelo">
+        <input type="text" name=""  placeholder="Modelo" id="modelo">
+      </div>
+      <div class="marca-select">
+        <select name="Marca" id="marca-select">
+          <option value="">--Área--</option>
+          <option value="1">Marca #1</option>
+          <option value="2">Marca #2</option>
+          <option value="3">Marca #3</option>
+        </select>
+      </div>
+      <div class="area-select">
+        <select name="Area" id="area-select">
+          <option value="">--Marca--</option>
+          <option value="1">Area #1</option>
+          <option value="2">Area #2</option>
+          <option value="3">Area #3</option>
+        </select>
+      </div>
+      <div class="estado-select">
+        <select name="Estado" id="estado-select">
+          <option value="">--Estado--</option>
+          <option value="1">Disponible</option>
+          <option value="2">Mantenimiento</option>
+          <option value="3">Prestado</option>
+        </select>
+      </div>
+      <div class="instructorCargo">
+        <select name="instructorCargo" id="instructorACargo">
+          <option value="">--Instructor a cargo--</option>
+          <option value="1">Instructor #1</option>
+          <option value="2">Instructor #2</option>
+          <option value="3">Instructor #3</option>
+        </select>
+      </div>
+
+      <button>
+        <img src="../img/cancel.svg" alt="" id="cancel">
+      </button>
+      <button>
+        <img src="../img/save.svg" alt="" id="save">
+      </button>
+
+
+
+
+
     </form>
   </div>
 
